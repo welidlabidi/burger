@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,MAAM;EACxB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,iBAAiB;EAC7B,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,MAAM;CAClB",
+    "sources": [
+        "buildcontrol.scss"
+    ],
+    "names": [],
+    "file": "buildcontrol.css"
+}

@@ -1,0 +1,39 @@
+.Sidedraw {
+  position: fixed;
+  width: 280px;
+  max-width: 70%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: white;
+  padding: 32px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+@media (min-width: 500px) {
+  .Sidedraw {
+    display: none;
+  }
+}
+
+.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.close {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.logo {
+  height: 35px;
+  margin-bottom: 32px;
+}
+/*# sourceMappingURL=sidedraw.css.map */

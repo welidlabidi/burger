@@ -1,0 +1,19 @@
+.buildcontrol {
+  width: 100%;
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 2px 1px #cccccc;
+          box-shadow: 0 2px 1px #cccccc;
+  margin: auto;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=buildcontrol.css.map */
