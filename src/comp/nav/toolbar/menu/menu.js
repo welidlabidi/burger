@@ -1,5 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Menu = () => <div></div>;
-
+const Menu = (props) => <div onClick={props.clicked}>MENU</div>;
 export default Menu;

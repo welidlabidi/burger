@@ -1,11 +1,11 @@
 import React from "react";
 import "../modal/modal.scss";
-import Aux from "../../hoc/aux";
+import Aux from "../../hoc/auxs";
 import Backdrop from "../backdrop/backdrop";
 
 const Modal = (props) => (
   <Aux>
-    <Backdrop show={props.show} />
+    <Backdrop show={props.show} clicked={props.modalClosed} />
     <div
       className="Modal"
       style={{
@@ -14,7 +14,6 @@ const Modal = (props) => (
       }}
     >
       {props.children}
-      <button onClick={props.modalClosed}>Close</button>
     </div>
   </Aux>
 );

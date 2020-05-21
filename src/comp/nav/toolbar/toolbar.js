@@ -2,10 +2,11 @@ import React from "react";
 import "../toolbar/toolbar.scss";
 import Logo from "../../logo/logo";
 import Navigation from "../navigation/navigation";
+import Menu from "./menu/menu";
 
-const Toolbar = () => (
+const Toolbar = (props) => (
   <header className="Toolbar">
-    <div>MENU</div>
+    <Menu clicked={props.toggle} />
     <Logo height="80%" />
     <nav className="DesktopOnly">
       <Navigation />
